@@ -1,7 +1,7 @@
 const SlashCommand = require("../../lib/SlashCommand");
 
 const command = new SlashCommand()
-	.setName("summon")
+	.setName("join")
 	.setDescription("Summons the bot to the channel.")
 	.setRun(async (client, interaction, options) => {
 		let channel = await client.getChannel(client, interaction);
