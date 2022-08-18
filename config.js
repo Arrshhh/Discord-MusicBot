@@ -23,9 +23,9 @@ module.exports = {
 	nodes: [
 		{
 			identifier: "Main Node", //- Used for indentifier in stats commands.
-			host: "54.37.6.86", //- The host name or IP of the lavalink server.
-			port: 80, // The port that lavalink is listening to. This must be a number!
-			password: "Blacky#9125", //- The password of the lavalink server.
+			host: "3.111.167.214", //- The host name or IP of the lavalink server.
+			port: 2333, // The port that lavalink is listening to. This must be a number!
+			password: "J819uDASdlaAJDO1994", //- The password of the lavalink server.
 			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
 			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
 			secure: false, //- Can be either true or false. Only use true if ssl is enabled!
@@ -37,7 +37,7 @@ module.exports = {
 		status: "online", //- You can have online, idle, dnd and invisible (Note: invisible makes people think the bot is offline)
 		activities: [
 			{
-				name: "Music", //- Status Text
+				name: "/help", //- Status Text
 				type: "LISTENING", //- PLAYING, WATCHING, LISTENING, STREAMING
 			},
 		],
